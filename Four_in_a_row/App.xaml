@@ -4,6 +4,10 @@
              xmlns:local="clr-namespace:Four_in_a_row"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="Ivory"/>
+            <Setter Property="BorderThickness" Value="0.6" />
+            <Setter Property="BorderBrush" Value="Black" />
+        </Style>
     </Application.Resources>
 </Application>
