@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="580">
     <Grid>
-        <Button x:Name="tile1" Content="" HorizontalAlignment="Left" Margin="110,70,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+        <Button x:Name="tile1" Content="{Binding IsTaken}" HorizontalAlignment="Left" Margin="110,70,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding ToggleXO}"/>
         <Button x:Name="tile2" Content="" HorizontalAlignment="Left" Margin="110,140,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
         <Button x:Name="tile3" Content="" HorizontalAlignment="Left" Margin="110,210,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
         <Button x:Name="tile4" Content="" HorizontalAlignment="Left" Margin="110,280,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
