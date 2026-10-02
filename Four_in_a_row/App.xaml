@@ -8,6 +8,8 @@
             <Setter Property="Background" Value="Ivory"/>
             <Setter Property="BorderThickness" Value="0.6" />
             <Setter Property="BorderBrush" Value="Black" />
+            <Setter Property="FontSize" Value="30" />
+            <Setter Property="FontWeight" Value="SemiBold" />
         </Style>
     </Application.Resources>
 </Application>

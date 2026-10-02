@@ -6,23 +6,25 @@
         xmlns:local="clr-namespace:Four_in_a_row"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="580">
-    <Grid>
-        <Button x:Name="tile1" Content="{Binding IsTaken}" HorizontalAlignment="Left" Margin="110,70,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding ToggleXO}"/>
-        <Button x:Name="tile2" Content="" HorizontalAlignment="Left" Margin="110,140,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile3" Content="" HorizontalAlignment="Left" Margin="110,210,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile4" Content="" HorizontalAlignment="Left" Margin="110,280,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile5" Content="" HorizontalAlignment="Left" Margin="200,70,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile6" Content="" HorizontalAlignment="Left" Margin="200,140,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile7" Content="" HorizontalAlignment="Left" Margin="200,210,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile8" Content="" HorizontalAlignment="Left" Margin="200,280,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile9" Content="" HorizontalAlignment="Left" Margin="290,70,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile10" Content="" HorizontalAlignment="Left" Margin="290,140,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile11" Content="" HorizontalAlignment="Left" Margin="290,210,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile12" Content="" HorizontalAlignment="Left" Margin="290,280,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile13" Content="" HorizontalAlignment="Left" Margin="380,70,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile14" Content="" HorizontalAlignment="Left" Margin="380,140,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile15" Content="" HorizontalAlignment="Left" Margin="380,210,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
-        <Button x:Name="tile16" Content="" HorizontalAlignment="Left" Margin="380,280,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
 
-    </Grid>
+    <ItemsControl>
+        <Grid>
+            <Button x:Name="tile1" Content="{Binding Tile1.IsTaken}" HorizontalAlignment="Left" Margin="110,70,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding Tile1.ToggleCommand}"/>
+            <Button x:Name="tile2" Content="" HorizontalAlignment="Left" Margin="110,140,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile3" Content="" HorizontalAlignment="Left" Margin="110,210,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile4" Content="" HorizontalAlignment="Left" Margin="110,280,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile5" Content="" HorizontalAlignment="Left" Margin="200,70,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile6" Content="" HorizontalAlignment="Left" Margin="200,140,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile7" Content="" HorizontalAlignment="Left" Margin="200,210,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile8" Content="" HorizontalAlignment="Left" Margin="200,280,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile9" Content="" HorizontalAlignment="Left" Margin="290,70,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile10" Content="" HorizontalAlignment="Left" Margin="290,140,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile11" Content="" HorizontalAlignment="Left" Margin="290,210,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile12" Content="" HorizontalAlignment="Left" Margin="290,280,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile13" Content="" HorizontalAlignment="Left" Margin="380,70,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile14" Content="" HorizontalAlignment="Left" Margin="380,140,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile15" Content="" HorizontalAlignment="Left" Margin="380,210,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+            <Button x:Name="tile16" Content="" HorizontalAlignment="Left" Margin="380,280,0,0" VerticalAlignment="Top" Height="70" Width="90" Command="{Binding IsTaken}"/>
+        </Grid>
+    </ItemsControl>
 </Window>
